@@ -1,6 +1,6 @@
 // console.log('it works?!');
 //GLOBAL VARS
-const voterAddress = `3431%20orchard%20circle%20decatur%20ga%2030032`
+const voterAddress = `3423%20piedmont%20road%20atlanta%20ga%2030305`
 
 //Set up fetch for google civic api to look at voter information
 // https://www.googleapis.com/civicinfo/v2/voterinfo?address=3431%20orchard%20circle%20decatur%20ga%2030032&key=${CIVICS_API}
