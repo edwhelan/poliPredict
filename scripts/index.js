@@ -14,6 +14,14 @@ function getVoterInfo() {
 }
 //helper functions
 function getData(data) {
-  console.log(data.contests);
+  const placesToEarlyVote = data.earlyVoteSites;
+  placesToEarlyVote.map(function (data) {
+    // debugger;
+    console.log(data.address.locationName);
+    console.log(data.address.line1);
+    console.log(data.address.city);
+    console.log(data.address.zip);
+    console.log('=========');
+  });
 }
 //Main function
