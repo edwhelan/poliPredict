@@ -11,8 +11,20 @@ html, body {
     height: 100%;
 }
 
-
-
 body {
-  background-color: antiquewhite;
+    background-color: antiquewhite;
+}
+
+.earlyVoterLocs{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    outline: 1px solid red;
+}
+
+.votespots{
+    outline: 1px solid pink;
+    width: 30%;
+    font-size: 1rem;
 }
